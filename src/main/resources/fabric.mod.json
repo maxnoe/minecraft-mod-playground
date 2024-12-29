@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"maxnoe.ExampleMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"maxnoe.ExampleModClient"
 		]
 	},
 	"mixins": [
