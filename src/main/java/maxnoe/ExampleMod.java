@@ -12,6 +12,8 @@ public class ExampleMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("mod loaded: {}", MOD_ID);
+
+    ModSounds.initialize();
     ModItems.initialize();
 	}
 }

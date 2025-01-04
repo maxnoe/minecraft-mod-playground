@@ -20,7 +20,7 @@ class ModItems {
     RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, id);
     Item.Settings settings = new Item.Settings().registryKey(key);
 
-    SwordItem sword = new SwordItem(LIGHTSABER_MATERIAL, 100.0f, 2.5f, settings);
+    SwordItem sword = new LightSaberItem(LIGHTSABER_MATERIAL, 100.0f, 2.5f, settings);
 
     return Registry.register(Registries.ITEM, key, sword);
   }

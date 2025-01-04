@@ -1,0 +1,14 @@
+{
+  "lightsaber_ignition": {
+    "subtitle": "sound.maxnoe-playground.lightsaber_ignition",
+    "sounds": [
+      "maxnoe-playground:lightsaber_ignition"
+    ]
+  },
+  "lightsaber_swing": {
+    "subtitle": "sound.maxnoe-playground.lightsaber_swing",
+    "sounds": [
+      "maxnoe-playground:lightsaber_swing"
+    ]
+  }
+}
